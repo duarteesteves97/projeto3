@@ -1,0 +1,15 @@
+# ignorar ficheiros do tipo xxxxx~
+*~
+# ignorar ficheiros do tipo xxxxx.o
+*.o
+# mas nao ignorar o ficheiro lib.o
+!lib.o
+# ignorar todos os ficheiros na diretoria TODO/
+TODO/*
+# ignorar doc/notes.txt, mas nao doc/server/arch.txt
+doc/*.txt
+# ignorar as diretorias com os ambientes virtuais (em python)
+venv/
+.venv/
+# se usam o pycharm, nao devem enviar os ficheiros de configuracao
+.idea/
